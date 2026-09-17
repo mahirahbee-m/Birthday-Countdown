@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Countdown</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="card">
+    <div id="countdown-box">
+      <h1>💖 Counting down to your Birthday Babe! 💖</h1>
+      <div id="timer">
+        <div class="time-unit"><span id="days">00</span><p>Days</p></div>
+        <div class="time-unit"><span id="hours">00</span><p>Hours</p></div>
+        <div class="time-unit"><span id="minutes">00</span><p>Minutes</p></div>
+        <div class="time-unit"><span id="seconds">00</span><p>Seconds</p></div>
+      </div>
+    </div>
+
+    <div id="birthday-message" class="hidden">
+      <h1>🎉 Happy Birthday love! 🎉</h1>
+      <p>Hope your day is as amazing as you are my Batman! I could not do it without you my love!</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
